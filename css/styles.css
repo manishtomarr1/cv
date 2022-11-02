@@ -1,0 +1,24 @@
+/*
+when we write css code in html page then it is called internal css
+when in the html tag called inline CSS
+when we made seprate file of css which will effext whole pages of our website then it is called exteral css
+ */
+body{
+  background-color:#EAF6F6
+}
+hr{
+  background:none;
+  border-style:none;
+  border-top-style:dotted;
+  border-color:grey;
+  border-width:5px;
+  width:4%;
+}
+/* now we can apply this in all pages of our website*/
+
+h3{
+  color:#66BFBF;
+}
+h1{
+color:#66BFBF;
+}
