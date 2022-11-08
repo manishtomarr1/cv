@@ -2,23 +2,220 @@
 when we write css code in html page then it is called internal css
 when in the html tag called inline CSS
 when we made seprate file of css which will effext whole pages of our website then it is called exteral css
+inline->internal->external the default priority
  */
 body{
-  background-color:#EAF6F6
-}
+    text-align: center;
+    margin:0;
+  }
+    img{
+      border-radius:90%;
+      width:150px;
+    }
+
 hr{
   background:none;
   border-style:none;
   border-top-style:dotted;
   border-color:grey;
   border-width:5px;
-  width:4%;
+  width:8%;
+  margin-bottom: 50px;
 }
 /* now we can apply this in all pages of our website*/
 
 h3{
-  color:#66BFBF;
-}
+    color: #11999E;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+
 h1{
-color:#66BFBF;
+color: #66BFBF;
+margin:0;
+font-family: 'Sacramento', cursive;
+font-size: 2.625rem;
+
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  /* px is not dynamic in natute */
+  color: #66BFBF;
+  font-weight: normal;
+}
+
+p{
+color: #545454;
+line-height: 1.5;
+margin:5px;
+font-size: 1.2rem;
+}
+a{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+.upper-container{
+  background-color: #E4F9F5;
+  text-align: center;
+  margin-upper:0;
+  margin-bottom:50px;
+}
+
+.profile{
+  width:50%;
+  margin:auto;
+  padding:40px;
+}
+
+.profile-img{
+  width: 30%;
+  float: left;
+}
+
+.secondry-img{
+  width:30%;
+  float:left;
+}
+
+.education{
+margin-top:50px;
+}
+
+.secondary-edu{
+  width:50%;
+  margin:100px auto 50px auto;
+}
+
+.senior-secondary{
+  width: 50%;
+  margin:50px auto 50px auto;
+}
+
+.senior-edu{
+  float:right;
+}
+
+.education-hr{
+  width:4%;
+  margin:70px auto 70px auto;
+}
+
+.bachelor-img{
+  width:25%;
+  float:left;
+}
+
+.bachelor-edu{
+  width: 50%;
+  margin:50px auto 50px auto;
+}
+
+.masters-edu{
+  width:50%;
+  margin:50px auto 50px auto;
+}
+
+.master-img{
+  width:25%;
+  float: right;
+}
+
+.hobbies{
+  width:50%;
+  margin:auto;
+  margin-top:50px;
+}
+
+.hobbies-img{
+  width:25%;
+
+
+}
+
+.last-p{
+  margin-bottom: 50px;
+}
+
+.work-exp{
+  width:37%;
+  margin:auto;
+  margin-top:30px;
+  margin-bottom: 30px;
+}
+
+
+
+table{
+  color:  #545454;
+  line-height: 1.3;
+  margin:5px;
+  font-size: 1.rem;
+  margin-bottom: 50px;
+}
+
+.skill{
+  width:50%;
+  margin:auto;
+  margin-top:50px;
+  margin-bottom: 20px;
+
+}
+
+.skills-img{
+  width:30%;
+}
+
+.last-table{
+  margin-bottom: 30px;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  MARGIN-TOP: 100PX;
+  padding: 50px;
+}
+a {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+.contact-me{
+  margin-top: 80px;
+}
+
+.btn {
+  background: #11CDD4;
+  background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+  background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+  background-image: linear-gradient(to bottom, #11CDD4, #11999E);
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #30E3CB;
+  background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+  background-image: linear-gradient(to bottom, #30E3CB, #2BC4AD);
+  text-decoration: none;
 }

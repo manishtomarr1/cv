@@ -5,142 +5,146 @@
   <meta charset="utf-8">
   <title> Manish Tomar </title>
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
   <style>
-  img{
-    border-radius:90%;
-    width:150px;
-  }
+
   </style>
 
 </head>
 
 <body> <!--<body style="background color: white"> called the in line css when we use css code inside any tag -->
-  <table cellspacing="20">
-    <tr>
-      <td>
-        <img src="images/manish.jpg" alt="manish profile picture" />
-        <!-- we use alt attribute beacuse if the image url is wrong user will see this text displayed -->
-      </td>
-      <td>
-        <h1> Manish Tomar</h1>
-        <p>
-          <a href="https://en.wikipedia.org/wiki/Computer_Applications_(UIL)">Computer Applications Student.</a>
-          <br />Department of <b>Information Technology</b>
-          <br />
-          <a href="http://www.mmmut.ac.in/">Madan Mohan Malaviya University of Technology Gorakhpur</a>
+  <div class="upper-container">
+    <div class="profile">
+      <img class="profile-img " src="images/boy.png" alt="manish profile picture" />
+      <!-- we use alt attribute beacuse if the image url is wrong user will see this text displayed -->
+      <h1> Manish Tomar</h1>
+      <p>
+        <a href="https://en.wikipedia.org/wiki/Computer_Applications_(UIL)">Computer Applications</a> Student.
+        <br />Department of <b>Information Technology.</b>
+        <br />
+        <a href="http://www.mmmut.ac.in/">Madan Mohan Malaviya University of Technology Gorakhpur.</a>
+        I am a <b>Web Developer.</b>
+      </p>
+    </div>
+  </div>
+  <hr size="2" noshade />
 
-        </p>
-        <p>
-          I am a <b>Web Developer.</b>
-        </p>
-      </td>
-    </tr>
-  </table>
+
+  <div class="middle-container">
+
+    <div class="education">
+      <img class="education-img" src="images/scholarship.png" alt="education-img">
+      <h2>Education.</h2>
+      <div class="secondary-edu">
+        <img class="secondry-img" src="images/secondary.png" alt="image">
+        <h2>Secondary.</h2>
+        <h3>Swami Vivekanand Public School Satwai.</h3>
+        <p>Subjects: Science, Social Science, English, Hindi, Mathematics</p>
+        <p>CGPA:6.60</p>
+
+      </div>
+      <hr class="education-hr" size="2" noshade />
+
+      <div class="senior-secondary">
+        <img class="senior-edu" src="images/school.png" alt="school-image">
+        <h2>Senior Secondary.</h2>
+        <h3>St. John's Sr Sec School Meerut.</h3>
+        <p>Subjects: Physics, Chemistry, Mathematics</p>
+        <p>Percentage:67.20%</p>
+      </div>
+
+      <hr class="education-hr" size="2" noshade />
+
+      <div class="bachelor-edu">
+        <img class="bachelor-img" src="images/graduate.png" alt="image">
+        <h2>Bachelor's Degree.</h2>
+        <h3>DIMS Meerut.</h3>
+        <p>Subjects: Computer Applications.</p>
+        <p>Percentage:66.50%</p>
+      </div>
+
+      <hr class="education-hr" size="2" noshade />
+
+      <div class="masters-edu">
+        <img class="master-img" src="images/certificate.png" alt="image">
+        <h2>Master's Degree.</h2>
+        <h3>MMMUT Gorakhpur.</h3>
+        <p>Subjects: Computer Applications.</p>
+        <p>Percentage:79.80%</p>
+      </div>
+
+    </div>
+    <hr size="2" noshade />
+
+    <div class="hobbies">
+      <img class=" hobbies-img " src="images/mental-health.png" alt="">
+        <h2>My Hobbies.</h2>
+      <p>Playing Cricket</p>
+      <p>Writing Songs</p>
+      <p>Watching Movies</p>
+      <p class="last-p"> Coding</p>
+    </div>
+
+    <hr size="2" noshade />
+
+    <div class="work-exp">
+      <img class="work-exp" src="images/experience.png" alt="">
+      <h2>Work Experience.</h2>
+      <table>
+        <thead> <!-- thead used for create the table head like the data is related to? -->
+          <tr> <!-- tr stands for table row in this we can create rows horizontaly -->
+            <th> <!-- th stands for the haed name -->
+              Month-Year
+            </th>
+            <th>
+              Company
+            </th>
+            <th>
+              Experience
+            </th>
+          </tr>
+        </thead>
+        <tbody> <!-- tbody used for the body of the table -->
+          <tr>
+            <td> <!-- td stands for the table data means that the data in the row -->
+              Sept 2023
+            </td>
+            <td>
+              Infosys India
+            </td>
+            <td>
+              Power Programmer Virtual Experience
+            </td>
+          </tr>
+          <tr>
+            <td>
+              Oct 2023
+            </td>
+            <td>
+              Accenture UK
+            </td>
+            <td>
+              Developer and Technology Virtual Experience
+            </td>
+
+          </tr>
+
+        </tbody>
+
+      </table>
+    </div>
+  </div>
 
   <hr size="2" noshade />
 
-  <h3>Education</h3>
-  <ul>
-    <li>
-      Senior Secondary - <em>Swami Vivekanand Public School Satwai.</em>
-      <ul>
+<div class="skill">
 
-        <li>
-          Science Stream
-        </li>
-      </ul>
-    </li>
-    <li>
-      Heigher Senior Secondary - <em>St. John's Sr Sec School Meerut. </em>
-      <ul>
-        <li>
-          Physics,Chemistry, Maths
-        </li>
-      </ul>
-    </li>
-    <li>
-      Bachelor's Degree - <em>DIMS Meerut </em>
-      <ul>
-        <li>
-          Computer Applications
-        </li>
-      </ul>
-    </li>
-    <li>
-      Master's Degree - <em>Madan Mohan Malaviya University of Technology Gorakhpur.</em>
-      <ul>
-
-        <li>
-          Computer Applications
-        </li>
-      </ul>
-    </li>
-  </ul>
-  <hr size="2" noshade />
-  <p>
-  <h3>MY Hobbies</h3>
-  <ol>
-    <li>
-      Playing <a href="https://en.wikipedia.org/wiki/Cricket">Cricket</a>
-    </li>
-    <li>
-      Writing Songs
-    </li>
-    <li>
-      Watching Movies </li>
-    <li>
-      Coding
-    </li>
-  </ol>
-  <hr size="2" noshade />
-
-  <h3>Work experience</h3>
-  <table>
-    <thead> <!-- thead used for create the table head like the data is related to? -->
-      <tr> <!-- tr stands for table row in this we can create rows horizontaly -->
-        <th> <!-- th stands for the haed name -->
-          Month-Year
-        </th>
-        <th>
-          Company
-        </th>
-        <th>
-          Experience Name
-        </th>
-      </tr>
-    </thead>
-    <tbody> <!-- tbody used for the body of the table -->
-      <tr>
-        <td> <!-- td stands for the table data means that the data in the row -->
-          Sept 2023
-        </td>
-        <td>
-          Infosys India
-        </td>
-        <td>
-          Power Programmer Virtual Experience
-        </td>
-      </tr>
-      <tr>
-        <td>
-          Oct 2023
-        </td>
-        <td>
-          Accenture UK
-        </td>
-        <td>
-          Developer and Technology Virtual Experience
-        </td>
-
-      </tr>
-
-    </tbody>
-
-  </table>
-
-  <hr size="2" noshade />
-  <h3>Skills</h3>
-  <table cellspacing="10">
+  <img class="skills-img"src="images/coding.png" alt="">
+  <h2>Skills.</h2>
+  <table class="last-table" cellspacing="10">
     <tr>
       <td>
         <table cellspacing="10">
@@ -168,7 +172,7 @@
                 Data Structures and Algorithms
               </td>
               <td>
-                ⭐⭐⭐
+                ⭐⭐⭐⭐
               </td>
             </tr>
           </tbody>
@@ -193,7 +197,7 @@
                 HTML(5)
               </td>
               <td>
-                ⭐⭐⭐⭐
+                ⭐⭐⭐⭐⭐
               </td>
             </tr>
             <tr>
@@ -201,7 +205,7 @@
                 CSS(3)
               </td>
               <td>
-                ⭐
+                ⭐⭐⭐⭐
               </td>
             </tr>
           </tbody>
@@ -210,11 +214,28 @@
       </td>
     </tr>
   </table>
+</div>
+
+
   <hr size="2" noshade />
 
-  <a href="contact.html">
-    <h3> <b> Contact Me</b></h3>
-  </a>
+  <div class="contact-me">
+    <a class="btn" href="mailto:tomarmanish32@email.com">CONTACT ME</a>
+    </a>
+  </div>
+
+  <div class="bottom-container">
+
+    <a class="footer-link-linkedin" href="https://www.linkedin.com/in/manish-tomar-09b75523b/">LinkedIn</a>
+    <a class="footer-link-insta" href="https://www.instagram.com/_tomarmanish/">Instagram</a>
+    <a href="https://github.com/manishtomarr1">github</a>
+    <a class="footer-link-website" href=" https://manishtomarr1.github.io/cv/">Website</a>
+
+    <p class="copy">© 2022 Manish Tomar. All rights reserved.</p>
+
+
+
+  </div>
 
 </body>
 
